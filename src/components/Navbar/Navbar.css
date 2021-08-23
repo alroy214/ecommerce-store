@@ -1,0 +1,45 @@
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: ghostwhite;
+    height: 100%;
+    padding-left: 30px;
+}
+
+/* Navigation links */
+.navbar a {
+    transition: 0.3s ease;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+}
+
+navbar-brand, .navbar-nav, .navbar-nav>li {
+    float:none;
+}
+
+.navbar-nav {
+    display:flex;
+}
+
+.navbar-nav>li {
+    flex: 2;
+}
+nav a:hover {
+    border-top: 4px solid white;
+    border-bottom: 4px solid #1d8bc1;
+    padding: 6px 0;
+    background-color: ghostwhite;
+    color: #1d8bc1;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}

@@ -1,0 +1,121 @@
+/*! CSS Used from: https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/css/global.css */
+*,:after,:before{box-sizing:border-box;}
+section{display:block;}
+h2{margin-top:0;margin-bottom:.5rem;}
+ul{margin-bottom:1rem;}
+ul{margin-top:0;}
+a{color:#444;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#1e1e1e;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+h2{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h2{font-size:2rem;}
+.img-fluid{max-width:100%;height:auto;}
+@media print{
+    *,:after,:before{text-shadow:none!important;box-shadow:none!important;}
+    a:not(.btn){text-decoration:underline;}
+    img{page-break-inside:avoid;}
+    h2{orphans:3;widows:3;}
+    h2{page-break-after:avoid;}
+}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-chevron-left:before{content:"\F053";}
+.fa-chevron-right:before{content:"\F054";}
+header~.container a:not(.btn-primary):not(.btn-outline-primary){color:#0070d2;}
+h2{font-family:Dosis,sans-serif;}
+/*! CSS Used from: https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/css/custom.css */
+*,:after,:before{box-sizing:border-box;}
+section{display:block;}
+h2{margin-top:0;margin-bottom:.5rem;}
+ul{margin-bottom:1rem;}
+ul{margin-top:0;}
+a{color:#152935;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#000;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+h2{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h2{font-size:2rem;}
+.img-fluid{max-width:100%;height:auto;}
+@media print{
+    *,:after,:before{text-shadow:none!important;box-shadow:none!important;}
+    a:not(.btn){text-decoration:underline;}
+    img{page-break-inside:avoid;}
+    h2{orphans:3;widows:3;}
+    h2{page-break-after:avoid;}
+}
+a{font-size:.75rem;}
+a{color:#000;}
+h2{font-size:40px;}
+a{color:#000;}
+header~.container a:not(.btn-primary):not(.btn-outline-primary){color:#303030;}
+a:not(.btn-primary):not(.btn-outline-primary){color:#000;}
+/*! CSS Used from: https://www.sallybeauty.com/on/demandware.static/-/Sites/default/v1629352991731/css/global-content.css */
+body .homepage__content-slot-3 .landing_heading,body .homepage__content-slot-3 h2{font-family:Jost,jost semi bold,open sans,sans-serif;}
+.landing_heading_container{position:relative;text-align:center;margin:2% 0;width:100%;}
+.landing_heading_container .landing_heading{font-size:30px;line-height:34px;letter-spacing:.6px;color:#2c2a29;font-weight:700;font-weight:700;display:inline;background-color:#fff;padding:0 3%;}
+@media (max-width:544px){
+    .landing_heading_container .landing_heading{font-size:24px;}
+}
+.landing_heading_container::before{display:block;position:absolute;z-index:-1;content:"";top:50%;left:0;width:100%;height:2px;background-color:#2c2a29;}
+@media (min-width:1200px){
+    .landing_heading_container{margin:2% 0;}
+}
+@media (min-width:545px){
+    .cat-grid_slider{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+}
+@media (min-width:1320px){
+    .cat-grid_slider{position:relative;}
+}
+.cat-grid_slider .cat-grid_slider_arrow{display:none;}
+@media (min-width:545px){
+    .cat-grid_slider .cat-grid_slider_arrow{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:100%;padding:12px;margin:3px;-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all;color:#555;font-size:30px;padding:3px;z-index:99;text-shadow:3px 3px 7px #aaac;-webkit-transition:text-shadow .15s;-o-transition:text-shadow .15s;transition:text-shadow .15s;}
+    .cat-grid_slider .cat-grid_slider_arrow:hover{text-shadow:1px 1px 4px #aaa;-webkit-transition:text-shadow .15s;-o-transition:text-shadow .15s;transition:text-shadow .15s;}
+    .cat-grid_slider .cat-grid_slider_arrow:active{text-shadow:none;}
+}
+@media (min-width:1200px){
+    .cat-grid_slider .cat-grid_slider_arrow{padding:5px;font-size:40px;}
+}
+@media (min-width:1410px){
+    .cat-grid_slider .cat-grid_slider_arrow{position:absolute;}
+}
+@media (min-width:1410px){
+    .cat-grid_slider .cat-grid_slider_arrow.arrow-prev{left:-50px;}
+}
+@media (min-width:1410px){
+    .cat-grid_slider .cat-grid_slider_arrow.arrow-next{right:-50px;}
+}
+.cat-grid_slider .slider-box{display:-webkit-box;display:-ms-flexbox;display:flex;overflow-x:scroll;-webkit-overflow-scrolling:touch;margin:0;padding:0;width:100%;}
+@media (min-width:1320px){
+    .cat-grid_slider .slider-box{overflow-x:hidden;}
+}
+.cat-grid_slider .slider-box .cat-grid_slide{-ms-flex-negative:0;flex-shrink:0;height:100%;list-style:none;width:44%;margin:2% .5%;padding:2% .5%;}
+@media (min-width:545px){
+    .cat-grid_slider .slider-box .cat-grid_slide{width:29%;}
+}
+.cat-grid_slider .slider-box .cat-grid_slide a:hover{-webkit-transition:.15s;-o-transition:.15s;transition:.15s;opacity:.85;text-decoration:none;}
+.cat-grid_slider .slider-box .cat-grid_slide img{max-width:100%;min-height:1px;max-height:250px;}
+@media (min-width:1200px){
+    .cat-grid_slider .slider-box[data-max-slide="6"] .cat-grid_slide{width:16.3%;margin:2% .166%;}
+}
+.cat-grid_slider .slider-box .cat-grid_slide{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:auto;}
+/*! CSS Used from: https://www.sallybeauty.com/on/demandware.static/-/Library-Sites-SallySharedLibrary/default/v1629382223151/web-assets/css/hp/2021-05_hp_style.css */
+section{margin-bottom:50px;}
+@media (max-width:544px){
+    .homepage__content-slot-3 section{margin-bottom:30px;}
+}
+.fa-chevron-right:before{background:0 0!important;content:""!important;}
+.fa-chevron-left:before{background:0 0!important;content:""!important;}
+.landing_heading_container{position:relative;text-align:center;margin:2% 0;width:100%;}
+.landing_heading_container .landing_heading{font-size:30px;line-height:34px;letter-spacing:.6px;color:#2c2a29;font-weight:700;font-weight:700;display:inline;background-color:#fff;padding:0 3%;}
+@media (max-width:544px){
+    .landing_heading_container .landing_heading{font-size:24px;}
+}
+.landing_heading_container::before{display:block;position:absolute;z-index:-1;content:"";top:50%;left:0;width:100%;height:2px;background-color:#2c2a29;}
+@media (min-width:1200px){
+    .landing_heading_container{margin:2% 0;}
+}
+#vn_brands_box{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+#vn_brands_box .cat-grid_slide{padding:15px;}
+/*! CSS Used fontfaces */
+@font-face{font-family:FontAwesome;src:url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.eot?v=4.7.0);src:url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.eot#iefix&v=4.7.0) format("embedded-opentype"),url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(https://www.sallybeauty.com/on/demandware.static/Sites-SA-Site/-/default/v1629382223151/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml1BMEfq4.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml1RMEfq4.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xME.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
